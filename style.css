@@ -43,6 +43,7 @@ nav {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
+  font-family: "Alverata Informal W01 Regular";
 }
 
 a {
@@ -60,6 +61,7 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  font-family: "Alverata Informal W01 Regular";
 }
 
 .logo:hover {
@@ -192,11 +194,13 @@ section {
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+  font-family: "Alverata Informal W01 Regular";
 }
 
 .title {
   font-size: 3rem;
   text-align: center;
+  font-family: "Alverata Informal W01 Regular";
 }
 
 #socials-container {
