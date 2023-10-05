@@ -9,10 +9,12 @@
 
 body {
   font-family: 'Frank Ruhl Libre', serif;
-  background: linear-gradient(302deg, rgb(198,46, 39), transparent),
+ 
+  background-color: rgb(230, 220, 206);
+  /* background: linear-gradient(10deg, rgb(198,46, 39), transparent),
     url(https://grainy-gradients.vercel.app/noise.svg);
-  /* filter: contrast(170%) brightness(1000%); */
-  mix-blend-mode: color;
+  filter: contrast(120%) ;
+  mix-blend-mode: color; */
 }
 
 html {
@@ -20,7 +22,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color:rgb(185, 40, 36);
 }
 
 /* TRANSITION */
@@ -174,6 +176,8 @@ section {
   gap: 5rem;
   height: 80vh;
   border-radius: 2%;
+  background-color: rgb(228, 60, 54);
+
   /* box-shadow: 12px 12px 2px 1px rgb(185,40,36) */
 }
 
@@ -207,6 +211,7 @@ section {
   font-size: 3rem;
   text-align: center;
   font-family: "Alverata Informal W01 Regular";
+  color:rgb(185, 40, 36);
 }
 
 #socials-container {
@@ -319,9 +324,11 @@ section {
 }
 
 .section__pic-container {
+  display:flex;
   height: 400px;
   width: 400px;
   margin: auto 0;
+  justify-content: center;
 }
 
 /* EXPERIENCE SECTION */
@@ -361,6 +368,7 @@ article {
 
 article .icon {
   cursor: default;
+  color: rgb(130, 168, 155);
 }
 
 /* PROJECTS SECTION */
